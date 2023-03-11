@@ -91,9 +91,9 @@ threading.Thread(target=Pictures).start()
 threading.Thread(target=PlaySound).start()
 threading.Thread(target=Box).start()
 threading.Thread(target=pics).start()
-#this line is needed to start a event loop of the tkinter gui 
+#this line is needed to start an event loop of the tkinter gui 
 root.mainloop()
-#time is stopped for 10 second and then the restart function is activated 
+#time is stopped for 10 seconds and then the restart function is activated 
 time.sleep(10)
 threading.Thread(target=restart).start()
 
